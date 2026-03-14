@@ -31,7 +31,3 @@ docker-compose up --build -d
 * **E-mail:** Utilize o `PGADMIN_DEFAULT_EMAIL` definido no arquivo `.env`
 * **Senha:** Utilize a `PGADMIN_DEFAULT_PASSWORD` definida no arquivo `.env`
 * **Host para conexão interna:** `postgres`
-
-## Funcionalidades
-* **Hot-Reloading:** Alterações de código nos diretórios locais de `frontend/` e `backend/` refletem em tempo real nos containers em execução sem necessidade de um novo build.
-* **Persistência de Dados:** Os dados do PostgreSQL e as configurações do PGAdmin são mantidos em volumes Docker, sobrevivendo à reinicialização dos containers.
